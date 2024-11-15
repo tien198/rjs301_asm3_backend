@@ -14,7 +14,7 @@ router.get('/', async (req, res, next) => {
   console.log(req.token);
   try {
     const products = await getAll();
-    res.json({ products: products });
+    res.json(products);
   } catch (error) {
     next(error);
   }
@@ -23,7 +23,7 @@ router.get('/', async (req, res, next) => {
 router.get('/:id', async (req, res, next) => {
   try {
     const event = await get(req.params.id);
-    res.json({ event: event });
+    res.json(event);
   } catch (error) {
     next(error);
   }
