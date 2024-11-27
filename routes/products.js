@@ -14,7 +14,9 @@ router.get('/', async (req, res, next) => {
   console.log(req.token);
   try {
     const products = await getAll();
-    res.json(products);
+    setTimeout(() => {
+      res.json(products);
+    }, 3000);
   } catch (error) {
     next(error);
   }
@@ -23,7 +25,9 @@ router.get('/', async (req, res, next) => {
 router.get('/:id', async (req, res, next) => {
   try {
     const event = await get(req.params.id);
-    res.json(event);
+    setTimeout(() => {
+      res.json(event);
+    }, 3000);
   } catch (error) {
     next(error);
   }
