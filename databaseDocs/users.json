@@ -1,12 +1,1 @@
-[
-    {
-        "email": "fawals98@gmail.com",
-        "password": "$2a$12$26TCa2FQbZ2nMsvqdr6PRuiws5iuBiyblmEvtmeE8rkwOJgKnmz8S",
-        "id": "e02f0ecc-c12b-4ee2-aa02-615463b839db"
-    },
-    {
-        "email": "tienvn998@gmail.com",
-        "password": "$2a$12$ozJr4f5mMbjC1REqzHFUtuu30OsQM8UpH2auvOuEcyKqR0ZJx1DqW",
-        "id": "3ea13819-9e6a-4663-9d7b-33639e53646d"
-    }
-]
+[{"email":"tienvn998@gmail.com","password":"$2a$12$xgbG5oTQHoCd0rjJfpUQD.hGA6k1XbmXpCWyRyzE1uwhZ7JPhOzUS","name":"Vũ Minh Tiến","phone":"0395091462","id":"41f335a9-54d2-4b63-92aa-117b3f408df1"}]
