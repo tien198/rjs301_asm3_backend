@@ -69,7 +69,7 @@ router.post('/login', async (req, res) => {
     name: user.name,
     phone: user.phone
   }
-  res.json({ message: `${user.name} login success!`, userInforRs, token });
+  res.json({ message: `${user.name} login success!`, user: userInforRs, token });
 });
 
 module.exports = router;
