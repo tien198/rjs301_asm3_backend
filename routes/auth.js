@@ -51,7 +51,7 @@ router.post('/login', async (req, res) => {
     user = await get(email);
   } catch (error) {
     return res.status(401).json({
-      errors: { message: 'Authentication failed.' }
+      errors: { credentials: 'Authentication failed.' }
     });
   }
 

@@ -13,7 +13,7 @@ async function add(data) {
   }
   storedData.push({ ...data, password: hashedPw, id: userId });
   await writeUserData(storedData);
-  return { id: userId, email: data.email };
+  return { id: userId, email: data.email, name: data.name, phone: data.phone };
 }
 
 async function get(email) {
